@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rafael Pacheco — Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+
+ 
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav>
+    <div class="nav-brand">
+      <span> </span>
+      Rafael_Pacheco
+    </div>
+    <ul class="nav-links">
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#sobre">Sobre mí</a></li>
+      <li><a href="#diplomas">Diplomas</a></li>
+      <li><a href="#stack">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#contacto" class="nav-cta">Contratarme</a>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" style="padding-top:80px;border-bottom:1px solid var(--border);">
+    <div class="hero-left">
+      <div class="hero-badge">Software Developer · Disponible para proyectos</div>
+
+      <h1 class="hero-name">
+        Rafael<br>
+        <span class="highlight">Pacheco</span>
+      </h1>
+      
+      <p class="hero-title">
+        &gt; Software Developer<span class="cursor"></span>
+      </p>
+
+      <p class="hero-desc">
+        Desarrollador de software con conocimiento en bases de datos, aplicaciones web, redes, hardware y sistemas empresariales.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contacto" class="btn-primary">
+          ✉ Contactar ahora
+        </a>
+        <a href="#diplomas" class="btn-secondary">
+          📄 Ver diplomas
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-num">8<span>+</span></div>
+          <div class="stat-lbl">Áreas de dominio</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">Jr<span>-</span></div>
+          <div class="stat-lbl">Developer</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">EN<span>/ES</span></div>
+          <div class="stat-lbl">Inglés & Español</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Terminal -->
+    <div class="hero-right">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <div class="t-dot t-dot-r"></div>
+          <div class="t-dot t-dot-y"></div>
+          <div class="t-dot t-dot-g"></div>
+          <span class="t-title">rafael@dev ~ profile.json</span>
+        </div>
+        <div class="terminal-body">
+          <div class="t-line"><span class="t-comment">// Perfil profesional</span></div>
+          <div class="t-line"><span class="t-arr">{</span></div>
+          <div class="t-line" style="padding-left:16px">
+            <span class="t-key">"nombre"</span><span class="t-arr">: </span><span class="t-str">"Rafael Pacheco"</span><span class="t-arr">,</span>
+          </div>
+          <div class="t-line" style="padding-left:16px">
+            <span class="t-key">"rol"</span><span class="t-arr">: </span><span class="t-str">"Software Developer"</span><span class="t-arr">,</span>
+          </div>
+          <div class="t-line" style="padding-left:16px">
+            <span class="t-key">"skills"</span><span class="t-arr">: [</span>
+          </div>
+          <div class="t-line" style="padding-left:32px"><span class="t-str">"Bases de datos"</span><span class="t-arr">,</span></div>
+          <div class="t-line" style="padding-left:32px"><span class="t-str">"Aplicaciones web"</span><span class="t-arr">,</span></div>
+          <div class="t-line" style="padding-left:32px"><span class="t-str">"Arduino"</span><span class="t-arr">,</span></div>
+          <div class="t-line" style="padding-left:32px"><span class="t-str">"Active Directory"</span><span class="t-arr">,</span></div>
+          <div class="t-line" style="padding-left:32px"><span class="t-str">"Servidores"</span></div>
+          <div class="t-line" style="padding-left:16px"><span class="t-arr">],</span></div>
+          <div class="t-line" style="padding-left:16px">
+            <span class="t-key">"idiomas"</span><span class="t-arr">: </span><span class="t-arr">[</span><span class="t-str">"Español"</span><span class="t-arr">, </span><span class="t-str">"Inglés"</span><span class="t-arr">],</span>
+          </div>
+          <div class="t-line" style="padding-left:16px">
+            <span class="t-key">"disponible"</span><span class="t-arr">: </span><span class="t-cmd">true</span>
+          </div>
+          <div class="t-line"><span class="t-arr">}</span></div>
+          <div class="t-line" style="margin-top:8px">
+            <span class="t-prompt">▸</span>
+            <span class="t-cmd" style="margin-left:6px">status</span>
+            <span class="t-val" style="margin-left:8px">→</span>
+            <span class="t-str" style="margin-left:6px;color:#10b981;">Online & listo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── HABILIDADES ─── -->
+  <section class="skills" id="habilidades">
+    <div class="section-header">
+      <div>
+        <div class="section-tag">Habilidades</div>
+        <h2 class="section-title">Áreas de <span> desarrollo</span></h2>
+      </div>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">🗄️</div>
+        <div class="skill-name">Bases de Datos</div>
+        <div class="skill-desc">SQL, MySQL, diseño de esquemas y optimización de queries.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:90%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">Programación</div>
+        <div class="skill-desc">Lógica, algoritmos, POO, scripting y desarrollo de aplicaciones.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:88%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">💻</div>
+        <div class="skill-name">Aplicaciones Web</div>
+        <div class="skill-desc">Desarrollo de sistemas y portales web,  arquitectura cliente-servidor.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:85%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🏗️</div>
+        <div class="skill-name">Creación de Páginas Web</div>
+        <div class="skill-desc">HTML, CSS, diseño responsivo, landing pages y sitios corporativos.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:92%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🔌</div>
+        <div class="skill-name">Arduino & Hardware</div>
+        <div class="skill-desc">Programación de microcontroladores, sensores, electrónica y proyectos </div>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:78%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🔧</div>
+        <div class="skill-name">Mantenimiento SW/HW</div>
+        <div class="skill-desc">Diagnóstico, reparación, actualización de software y hardware de equipos.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:87%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🖥️</div>
+        <div class="skill-name">Servidores</div>
+        <div class="skill-desc">Configuración, administración y mantenimiento de servidores Windows/Linux.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🏢</div>
+        <div class="skill-name">Active Directory</div>
+        <div class="skill-desc">Gestión de usuarios, grupos, políticas GPO y administración de dominios.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" style="width:82%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SOBRE MÍ ─── -->
+  <section class="about" id="sobre">
+    <div class="section-header">
+      <div>
+        <div class="section-tag">Sobre mí</div>
+        <h2 class="section-title">Quién <span>soy</span></h2>
+      </div>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Soy <span class="about-highlight">Rafael Pacheco</span>, desarrollador de software con una visión completa del ciclo tecnológico: desde escribir código limpio y eficiente, hasta mantener la infraestructura que lo sostiene.</p>
+        <p>Me apasiona resolver problemas reales con tecnología. Trabajo tanto en el <span class="about-highlight">desarrollo de software</span> como en la parte de <span class="about-highlight">sistemas</span>, lo que me permite entregar soluciones integrales para cada capa del proyecto.</p>
+        <p>Tengo experiencia trabajando con equipos y de forma independiente, siempre con enfoque en la calidad, la documentación y los resultados a largo plazo.</p>
+        <div class="about-lang">
+          <span class="lang-badge"><span class="dot" style="background:#3b82f6"></span>Español nativo</span>
+          <span class="lang-badge"><span class="dot" style="background:#10b981"></span>Inglés técnico</span>
+        </div>
+      </div>
+
+      <div class="about-right">
+        <div class="info-card">
+          <div class="info-card-header">rafael@dev — info.config</div>
+          <div class="info-row">
+            <span class="info-key">Nombre</span>
+            <span class="info-val">Rafael Pacheco</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key"><Ri:d></Ri:d>Rol</span>
+            <span class="info-val">Software Developer</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Especialidad</span>
+            <span class="info-val">Jr Developer + Sistemas</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Inglés</span>
+            <span class="info-val">Técnico / Profesional</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">disponibilidad</span>
+            <span class="badge-green">● Disponible</span>
+          </div>
+          <div class="info-row">
+            <span class="info-key">Modalidad</span>
+            <span class="info-val">Remoto / Presencial</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── DIPLOMAS ─── -->
+ <section id="diplomas" class="diplomas">
+  <h2>Diplomas & Certificados</h2>
+
+  <div class="contenedor-diplomas">
+
+    <!-- Diploma 1 -->
+    <div class="card-diploma">
+      <img src="imagenes/html.png" alt="Diploma HTML">
+
+      <div class="info">
+        <h3>HTML Básico</h3>
+        <p>Platzi</p>
+        <span>2026</span>
+      </div>
+    </div>
+
+    <!-- Diploma 2 -->
+    <div class="card-diploma">
+      <img src="imagenes/computacion.png" alt="Computación Básica">
+
+      <div class="info">
+        <h3>Computación Básica</h3>
+        <p>Platzi</p>
+        <span>2026</span>
+      </div>
+    </div>
+
+    <!-- Diploma 3 -->
+    <div class="card-diploma">
+      <img src="imagenes/css.png" alt="Diploma CSS">
+
+      <div class="info">
+        <h3>CSS Básico</h3>
+        <p>Platzi</p>
+        <span>2026</span>
+      </div>
+    </div>
+
+    <!-- Diploma 4 -->
+    <div class="card-diploma">
+      <img src="imagenes/terminal.png" alt="Diploma Terminal">
+
+      <div class="info">
+        <h3>Terminal Básica</h3>
+        <p>Platzi</p>
+        <span>2026</span>
+      </div>
+    </div>
+
+    <!-- Diploma 5 -->
+    <div class="card-diploma">
+      <img src="imagenes/Cisco.png" alt="Diploma Cisco">
+
+      <div class="info">
+        <h3>introduccion a las redes</h3>
+        <p>Cisco Networking Academy</p>
+        <span>2025</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ─── SERVICIOS / STACK ─── -->
+  <section class="stack" id="stack">
+    <div class="section-header">
+      <div>
+        <div class="section-tag">Servicios</div>
+        <h2 class="section-title">Lo que puedo <span>hacer por ti</span></h2>
+      </div>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="stack-grid">
+      <div class="stack-card">
+        <div class="stack-icon" style="background:rgba(59,130,246,0.1);border:1px solid rgba(59,130,246,0.2);">🌐</div>
+        <div class="stack-body">
+          <div class="stack-title">Desarrollo Web Completo</div>
+          <div class="stack-desc">Diseño y desarrollo de sitios web y aplicaciones desde cero, con back-end y front-end responsivo.</div>
+          <div class="stack-tags">
+            <span class="tag">HTML/CSS</span><span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stack-card">
+        <div class="stack-icon" style="background:rgba(6,182,212,0.1);border:1px solid rgba(6,182,212,0.2);">🗄️</div>
+        <div class="stack-body">
+          <div class="stack-title">Administración de Bases de Datos</div>
+          <div class="stack-desc">Diseño de esquemas, optimización de consultas, backups y administración de motores SQL y NoSQL.</div>
+          <div class="stack-tags">
+            <span class="tag">MySQL</span><span class="tag">SQL Server</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stack-card">
+        <div class="stack-icon" style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.2);">🖥️</div>
+        <div class="stack-body">
+          <div class="stack-title">Servidores & Active Directory</div>
+          <div class="stack-desc">Configuración de servidores, gestión de dominios, usuarios, políticas GPO y administración de red empresarial.</div>
+          <div class="stack-tags">
+            <span class="tag">Windows Server</span><span class="tag">Linux</span><span class="tag">GPO</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stack-card">
+        <div class="stack-icon" style="background:rgba(168,85,247,0.1);border:1px solid rgba(168,85,247,0.2);">🔌</div>
+        <div class="stack-body">
+          <div class="stack-title">Arduino & Proyectos IoT</div>
+          <div class="stack-desc">Desarrollo de prototipos electrónicos, automatización con sensores y actuadores, y proyectos embebidos.</div>
+          <div class="stack-tags">
+            <span class="tag">Arduino</span><span class="tag">C/C++</span><span class="tag">Sensores</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stack-card">
+        <div class="stack-icon" style="background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.2);">🔧</div>
+        <div class="stack-body">
+          <div class="stack-title">Mantenimiento de Equipos</div>
+          <div class="stack-desc">Diagnóstico, reparación y optimización de hardware y software en equipos de cómputo y estaciones de trabajo.</div>
+          <div class="stack-tags">
+            <span class="tag">Hardware</span><span class="tag">Software</span><span class="tag">Diagnóstico</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stack-card">
+        <div class="stack-icon" style="background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.2);">💬</div>
+        <div class="stack-body">
+          <div class="stack-title">Soporte Técnico en Inglés</div>
+          <div class="stack-desc">Atención y soporte técnico en inglés para equipos o clientes internacionales, documentación y comunicación.</div>
+          <div class="stack-tags">
+            <span class="tag">Inglés técnico</span><span class="tag">Soporte</span><span class="tag">Documentación</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACTO ─── -->
+  <section class="contact" id="contacto">
+    <div class="section-header">
+      <div>
+        <div class="section-tag">Contacto</div>
+        <h2 class="section-title">Hablemos de <span>tu proyecto</span></h2>
+      </div>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="contact-wrapper">
+      <div class="contact-text">
+        <h3>¿Tienes un<br>proyecto en <span>mente</span>?</h3>
+        <p>Estoy disponible para proyectos freelance, empleo o colaboraciones. Cuéntame qué necesitas y te respondo en menos de 24 horas.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div class="contact-item-body">
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-val">rafaeledgardopacheco4@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📱</div>
+            <div class="contact-item-body">
+              <div class="contact-item-label">WhatsApp / Teléfono</div>
+              <div class="contact-item-val">+503 6315 4086</div>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-item-icon">🐙</div>
+            <div class="contact-item-body">
+              <div class="contact-item-label">GitHub</div>
+              <div class="contact-item-val">github.com/Rafaeel2022-art</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <form class="contact-form" onsubmit="return false;">
+          <div class="form-group">
+            <label class="form-label">Nombre</label>
+            <input class="form-input" type="text" placeholder="Tu nombre completo">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input class="form-input" type="email" placeholder="tu@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Asunto</label>
+            <input class="form-input" type="text" placeholder="¿En qué puedo ayudarte?">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Mensaje</label>
+            <textarea class="form-textarea" placeholder="Cuéntame sobre tu proyecto o necesidad..."></textarea>
+          </div>
+          <button class="form-submit" type="submit">Enviar mensaje →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="footer-brand">
+      <strong>Rafael_Pacheco</strong>
+    </div>
+    <div class="footer-copy">© 2026 Rafael Pacheco — Todos los derechos reservados</div>
+    <ul class="footer-links">
+      <li><a href="https://github.com/Rafaeel2022-art">GitHub</a></li>
+      <li><a href="https://www.instagram.com/paccheco16/">Instagram</a></li>
+    </ul>
+  </footer>
+
+  <!-- ─── JS: DIPLOMAS ─── -->
+  <script>
+    const DEFAULT_DIPLOMAS = [
+      { titulo: 'Diploma 1', institucion: 'Institución / Universidad', año: '2024', tipo: 'Certificado' },
+      { titulo: 'Diploma 2', institucion: 'Institución / Universidad', año: '2023', tipo: 'Título' },
+      { titulo: 'Diploma 3', institucion: 'Institución / Universidad', año: '2023', tipo: 'Curso' },
+    ];
+
+    const grid = document.getElementById('diplomasGrid');
+
+    function createDiplomaCard(data = {}) {
+      const card = document.createElement('div');
+      card.className = 'diploma-card';
+
+      card.innerHTML = `
+        <div class="diploma-img-zone" id="zone-${Date.now()}">
+          <input type="file" accept="image/*">
+          <img alt="Diploma">
+          <button class="diploma-remove" title="Quitar imagen">✕</button>
+          <div class="upload-placeholder">
+            <div class="upload-icon">📄</div>
+            <div class="upload-text">Haz clic o arrastra<br>tu diploma aquí</div>
+            <div class="upload-badge">JPG · PNG · PDF</div>
+          </div>
+        </div>
+        <div class="diploma-info">
+          <input class="diploma-title-input" type="text" placeholder="Nombre del diploma" value="${data.titulo || ''}">
+          <input class="diploma-meta-input" type="text" placeholder="Institución o universidad" value="${data.institucion || ''}">
+          <div class="diploma-divider"></div>
+          <div class="diploma-footer">
+            <input class="diploma-year-input" type="text" placeholder="Año" value="${data.año || ''}">
+            <input class="diploma-type-input" type="text" placeholder="Tipo (Título, Curso...)" value="${data.tipo || ''}">
+          </div>
+        </div>`;
+
+      const zone = card.querySelector('.diploma-img-zone');
+      const fileInput = card.querySelector('input[type="file"]');
+      const img = card.querySelector('img');
+      const removeBtn = card.querySelector('.diploma-remove');
+
+      // Subir imagen
+      fileInput.addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+          img.src = ev.target.result;
+          zone.classList.add('has-img');
+        };
+        reader.readAsDataURL(file);
+      });
+
+      // Quitar imagen
+      removeBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        img.src = '';
+        zone.classList.remove('has-img');
+        fileInput.value = '';
+      });
+
+      return card;
+    }
+
+    function createAddButton() {
+      const btn = document.createElement('button');
+      btn.className = 'add-diploma-btn';
+      btn.innerHTML = `<div class="plus">+</div><span>Añadir diploma</span>`;
+      btn.addEventListener('click', () => {
+        const newCard = createDiplomaCard();
+        grid.insertBefore(newCard, btn);
+      });
+      return btn;
+    }
+
+    // Inicializar
+    DEFAULT_DIPLOMAS.forEach(d => grid.appendChild(createDiplomaCard(d)));
+    grid.appendChild(createAddButton());
+  </script>
+
+</body>
+</html>
